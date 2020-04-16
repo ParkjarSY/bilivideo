@@ -1,11 +1,66 @@
 <view class="main">
+	
+<!-- @pJc  email:15249483164@163.com -->
+   
+   
 	<!-- 导航 -->
    <Headers></Headers>
    <!-- 首页导航 -->
    <view class="nav_daoh">
 	   <!-- 滚动组件 -->
 	   <scroll-view class="nav" scroll-x>
-		   <view class="nav-item" wx:for="{{navList}}"  wx:key="{{index}}">{{item.text}}</view>
+		   <view 
+		   bindtap="clickNav" data-index="{{index}}"
+		   class="nav-item {{index===clickNav? 'active':' '}}" 
+		   wx:for="{{navList}}" wx:key="index">
+		   {{item.text}}
+		   </view>
 	   </scroll-view>
    </view>
+   <!-- 轮播图 -->
+   <view class="swiper">
+	   <swiper 
+	   indicatorDots="{{indicatorDots}}" 
+	   interval="{{interval}}"
+	   autoplay="{{autoplay}}"
+	   circular="{{circular}}"
+	   >
+		   <swiper-item wx:for="{{swiperList}}" wx:key="index" >
+			   <navigator>
+				   <image mode="widthFix" src="{{item.imgSrc}}"></image>
+			   </navigator>
+		   </swiper-item>
+	   </swiper>
+   </view>
+	<!-- 视频列表 -->
+	<view class="video">
+		<navigator class="video_item" 
+		wx:for="{{videoList}}" wx:key="index"
+		>
+			<!-- 图片区块 -->
+			<view class="video_img">
+				<!-- 图片 -->
+				<image mode="widthFix" src="{{item.imgSrc}}"></image>
+				<!-- 播放信息 -->
+				<view src="" class="video_info">
+					<!-- 播放量 -->
+					<view class="play_count">
+						<!-- 图标 -->
+						<text class="fa fa-play-circle-o"></text>
+						<!-- 数值 -->
+						<text class="count_p">{{item.playCount}}</text>
+					</view>
+					<!-- 评论 -->
+					<view class="comment_count">
+						<!-- 图标 -->
+						<text class="fa fa-commenting-o"></text>
+						<!-- 数值 -->
+						<text class="comm_p">{{item.commentCount}}</text>
+					</view>
+				</view>
+			</view>
+			<!-- 标题 -->
+			<view class="video_title">{{item.desc}}</view>
+		</navigator>
+	</view>
 </view>
