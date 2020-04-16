@@ -1,9 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
     "pages/index2/index2",
-    "pages/index3/index3"
+    "pages/index3/index3",
+    "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -14,25 +14,26 @@
   "tabBar": {
     "list": [{
       "pagePath": "pages/index/index",
-      "text": "shouye",
-      "iconPath": "icons/circle.png",
-      "selectedIconPath":"icons/redtop.png"
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home_1.png"
     },
     {
       "pagePath": "pages/index2/index2",
-      "text": "hello",
-      "iconPath": "icons/circle.png",
-      "selectedIconPath": "icons/reftop.png"
+      "text": "详情",
+      "iconPath": "icons/order_1.png",
+      "selectedIconPath": "icons/order.png"
     },
     {
       "pagePath": "pages/index3/index3",
-      "text": "world",
-      "iconPath": "icons/circle.png",
-      "selectedIconPath": "icons/reftop.png"
+      "text": "用户",
+      "iconPath": "icons/personal_1.png",
+      "selectedIconPath": "icons/personal.png"
     }
-   ]
+    ],
+    "color": "#000000",
+    "selectedColor": "#0f0f0f"
   },
-
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

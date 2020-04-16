@@ -13,9 +13,9 @@
 		"coverView": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.3",
+	"libVersion": "2.11.0",
 	"appid": "wx90d8826d3be10a75",
-	"projectname": "miniprogram-2",
+	"projectname": "Doit",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
