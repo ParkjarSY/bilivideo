@@ -1,0 +1,12 @@
+<view class="mian">
+  <Headers></Headers>
+  <!-- 视频 -->
+  <view class="video_info">
+	  <!-- 视频 -->
+	  <video src="{{videoInfo.videoSrc}}" controls></video>
+	  <view class="title">{{videoInfo.videoTitle}}</view>
+	  <view class="detial">
+		  
+	  </view>
+  </view>
+</view>
