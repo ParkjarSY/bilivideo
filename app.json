@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index2/index2",
+    "pages/index3/index3"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "shouye",
+      "iconPath": "icons/circle.png",
+      "selectedIconPath":"icons/redtop.png"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "text": "hello",
+      "iconPath": "icons/circle.png",
+      "selectedIconPath": "icons/reftop.png"
+    },
+    {
+      "pagePath": "pages/index3/index3",
+      "text": "world",
+      "iconPath": "icons/circle.png",
+      "selectedIconPath": "icons/reftop.png"
+    }
+   ]
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
