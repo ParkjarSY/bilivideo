@@ -1,0 +1,14 @@
+<view class="my_title">
+	<!-- logo -->
+	<navigator class="logo" >
+		<image class="i_logo" src="../../img/caihongSVG.png" ></image>
+	</navigator>
+	<!-- search -->
+	<view class="search">
+		<image class="i_serach" src="../../img/sousuo.png"></image>
+	</view>
+	<!-- User -->
+	<view class="user">
+		<image class="i_user" src="../../img/yonghu.png"></image>
+	</view>
+</view>

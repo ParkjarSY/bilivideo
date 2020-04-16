@@ -1,0 +1,34 @@
+/* components/MyTitle/MyTitle.wxss */
+.my_title{
+	display: flex;
+	align-items: center;
+	padding: 10rpx;
+	background-color: white;
+}
+.logo{
+	flex:7;
+}
+.search{
+	flex:1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user{
+	flex:2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.i_logo{
+	width: 160rpx;
+	height: 120rpx;
+}
+.i_serach{
+	width: 60rpx;
+	height: 50rpx;
+}
+.i_user{
+	width: 50rpx;
+	height: 50rpx;
+}
