@@ -1,1 +1,29 @@
 /* pages/detial/detial.wxss */
+.main{
+	padding: 10rpx;
+	color: #666;
+}
+.video_info{
+	margin-top: 10rpx;
+	
+}
+.video_info video{
+	width: 100%;
+}
+.title{
+	display: flex;
+	justify-content: space-between;
+	font-size: 35rpx;
+}
+
+
+.detial{
+	margin-top: 15rpx;
+	font-size: 28rpx;
+}
+.detial text{
+	margin-left:5rpx ;
+}
+.detial.author{
+	color: #000;
+}
